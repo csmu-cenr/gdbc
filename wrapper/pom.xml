@@ -72,13 +72,14 @@
 			<scope>test</scope>
 		</dependency>
 		
-		<dependency>
+		<!-- <dependency>
 		    <groupId>com.oracle</groupId>
 		    <artifactId>ojdbc6</artifactId>
 		    <version>12.1.0.1-atlassian-hosted</version>
 		    <scope>compile</scope>
-			<optional>true</optional> <!-- To allow us to compile the oracle only extensions, but not include the jar unless it is the oracle driver -->
-		</dependency>
+			<optional>true</optional> 
+		</dependency> -->	
+		<!-- Note: <optional>true</optional>  To allow us to compile the oracle only extensions, but not include the jar unless it is the oracle driver -->
 
 		<dependency>
 			<groupId>com.h2database</groupId>

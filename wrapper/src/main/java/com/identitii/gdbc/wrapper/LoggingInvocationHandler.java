@@ -11,7 +11,7 @@ import java.util.Arrays;
 
 import org.json.JSONArray;
 
-import oracle.jdbc.dcn.DatabaseChangeRegistration;
+//import oracle.jdbc.dcn.DatabaseChangeRegistration;
 
 class LoggingInvocationHandler implements InvocationHandler {
 	
