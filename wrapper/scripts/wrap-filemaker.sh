@@ -5,8 +5,8 @@ set -e
 cd "${0%/*}"
 
 DRIVER_NAME="filemaker" \
-DRIVER_GROUP="filemaker" \
-DRIVER_ARTIFACT="com.filemaker" \
+DRIVER_GROUP="com.filemaker" \
+DRIVER_ARTIFACT="jdbc" \
 DRIVER_VERSION="19.0.0" \
 DRIVER_CLASS="com.filemaker.jdbc.Driver" \
 DRIVER_BUILD_TIME_CLASSES="" \

@@ -29,8 +29,6 @@
             <groupId>com.filemaker</groupId>
             <artifactId>jdbc</artifactId>
             <version>19.0.0</version>
-            <scope>system</scope>
-            <systemPath>${basedir}/wrapper/src/main/java/filemaker/jdbc/driver/fmjdbc.jar</systemPath>
         </dependency>
         
 		<!-- https://mvnrepository.com/artifact/org.json/json -->
